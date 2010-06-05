@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  idiom: MyText
+  user: 
+  category: 
+
+two:
+  idiom: MyText
+  user: 
+  category: 
