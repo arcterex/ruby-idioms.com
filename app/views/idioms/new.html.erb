@@ -1,0 +1,8 @@
+Please type in the idiom you'd like to create below.
+<%= error_messages_for :model %>
+
+<% form_for @idiom do |f| -%>
+  <%= f.label "Idiom" %>
+  <%= f.text_area "idiom" %>
+  <%= f.submit "Create" %>
+<% end -%>

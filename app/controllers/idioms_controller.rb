@@ -3,6 +3,9 @@ class IdiomsController < ApplicationController
     @idioms = Idiom.all
   end
 
+  def new
+    @idiom = Idiom.new
+  end
   def show
     @idiom = Idiom.find(params[:id])
   end
